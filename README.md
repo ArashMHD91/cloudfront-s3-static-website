@@ -46,7 +46,7 @@ AWS Cloud
       "Effect": "Allow",
       "Principal": "*",
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::arashcloud-web-bucket/*"
+      "Resource": "arn:aws:s3:::YOUR_BUCKET_NAME/*"
     }
   ]
 }
@@ -81,8 +81,7 @@ Your website should now be accessible via your damain name, in my case `http://a
 ## Part B: Securing the Website with SSL and CloudFront
 
 ### 1. Create a New S3 Bucket (For CloudFront)
-- Follow **Step 1** from Part A but use a **random bucket name** (not your domain).
-- Keep it **private** (no public access).
+- Follow **Step 1** from Part A but use a **random bucket name** (not your domain) and upload static website content
 
 ### 2. Request an SSL Certificate in ACM
 - Navigate to **AWS Certificate Manager (ACM)**.
