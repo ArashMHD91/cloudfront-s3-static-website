@@ -132,13 +132,6 @@ Once the status is **Enabled**, copy the **CloudFront Domain Name** (e.g., `d5a6
 
 ---
 
-## 🚀 Future Enhancements
-- Add **AWS WAF** for additional security.
-- Implement **CloudFront caching strategies** for better performance.
-- Use **Lambda@Edge** for dynamic content handling.
-
----
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
