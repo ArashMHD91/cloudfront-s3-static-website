@@ -7,7 +7,7 @@
 ```
 AWS Cloud
 ├── Amazon S3
-│   ├── Public Bucket (Static Website Hosting) - arashcloud-web-bucket
+│   ├── Public Bucket (Static Website Hosting) - arashcloud.engineer
 │   ├── Private Bucket (For CloudFront) - random-s3-bucket
 │   ├── Static Website Files (HTML, CSS, JS)
 │
